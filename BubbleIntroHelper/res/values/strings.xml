@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BubbleIntroHelper</string>
+    <string name="action_settings">Settings</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Ok</string>
+    <string name="cancel_help">Cancel Help</string>
+    <string name="alert_title_info">Info:</string>
+    <string name="alert_cancel_help">Are you sure to cancel a help wizard?</string>
+
+</resources>

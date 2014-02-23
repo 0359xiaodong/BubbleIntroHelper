@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.bubbleEngine.BubbleRelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:intro="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llBackground"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    intro:shadowColor="#64000000"
+    intro:padding="18dp"
+    intro:strokeWidth="5"
+    intro:cornerRadius="10"
+    intro:halfBaseOfLeg="18dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/llButtonBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtContent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="1dip"
+            android:layout_alignLeft="@+id/buttonCancel"
+            android:layout_alignRight="@+id/buttonNext"
+            android:background="?attr/dividerVertical" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:minWidth="100dp"
+            android:text="@string/cancel_help"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonCancel"
+            android:layout_alignTop="@+id/buttonCancel"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@+id/buttonCancel"
+            android:background="?attr/dividerVertical"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/divider"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:text="@string/next"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:autoLink="all"
+        android:gravity="center"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:lineSpacingExtra="0dp"
+        android:lineSpacingMultiplier="1.0"
+        android:minHeight="50dp"
+        android:text="++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+        android:textSize="15sp" />
+
+</com.example.bubbleEngine.BubbleRelativeLayout>
