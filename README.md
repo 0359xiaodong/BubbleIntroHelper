@@ -1,9 +1,9 @@
 BubbleIntroHelper
 =================
 
-BubbleIntroHelper provides an easy way how to add bubble guided tour for your android application users. Checkout Instago app for an instance.
+*BubbleIntroHelper provides an easy way how to add bubble guided tour for your android application users. Checkout Instago app for an instance.*
 
-Showing a bubble for your view is provided by using the following method:
+**Showing a bubble for your view is provided by using the following method:**
 
 	/**
 	 * Assign popup window to the specific parent view. Once the window is shown it will not be shown in the future anymore. 
