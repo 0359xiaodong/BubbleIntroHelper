@@ -1,7 +1,7 @@
 BubbleIntroHelper
 =================
 
-*BubbleIntroHelper provides an easy way how to add bubble guided tour for your android application users. Checkout Instago app for an instance.*
+*BubbleIntroHelper provides an easy way how to add for an instance bubble guided tour for your android application. Bubble algorithm automatically distinguish where to place bubble to be fitted well onto a screen.*
 
 **Showing a bubble for your view is provided by using the following method:**
 
