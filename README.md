@@ -19,4 +19,4 @@ BubbleIntroHelper
 	public static synchronized HelpPopupWindow addHelpPopupWindow(final int forVersionCode, final int ID,
 			final View parent, final String content)
 
-![Alt text](https://drive.google.com/uc?export=download&id=0B4jPPQOZ8N-MWHlwRzdYV1llR3c)
+![Alt text](https://drive.google.com/uc?export=download&id=0B4jPPQOZ8N-MQnNUMzZJNzZkODg)
